@@ -1,0 +1,125 @@
+.welcome-body {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 50px 50px 50px 50px;
+    padding: 0px 20px;
+}
+
+/* Style for the welcome-body header */
+.welcome-body h1 {
+    /* font-family: "Shrikhand", serif; */
+    font-size: 48px; 
+    /* color: rgb(96, 96, 96);  */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+
+.pink-block {
+    height: auto;
+    background-color: lightblue;
+    margin: 0px 50px 100px 50px;
+    padding: 20px 20px;
+    color: white;
+}
+
+.current-events-body {
+    height: 600px;
+    margin: 20px 20px;
+}
+
+.current-events-header {
+    border-bottom: 2px solid pink;
+    width: fit-content;
+}
+
+.mobile-app-body {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+    flex-direction: column;
+    margin: 50px 50px 150px 50px;
+}
+
+.mobile-app-image {
+    width: 100%; /* Make the image responsive */
+    max-width: 300px; /* Limit the maximum width of the image */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    align-items: center;
+}
+
+.mobile-app-text {
+    text-align: center; /* Right-align the text */
+}
+
+.mobile-app-text h2 {
+    margin: 0 0 10px; /* Add spacing below the heading */
+    font-size: 24px;
+    color: #333; /* Dark text color */
+}
+  
+.mobile-app-text p {
+    margin: 0;
+    font-size: 16px;
+    color: #666; /* Subtle text color */
+}
+
+.mobile-app-image-container {
+    display: flex;
+    justify-content: center; /* Align image to the right */
+}
+
+.mobile-app-image {
+    height: 400px;
+    width: auto;
+}
+
+.cta-button {
+  background: linear-gradient(135deg, #FF69B4, #ff1493);
+  color: white;
+  padding: 1.2rem 3rem;
+  margin: 1.2rem 0;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.0rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #ff1493, #FF69B4);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.6);
+}
+
+.cta-button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(255, 105, 180, 0.4);
+}
+
+.cta-button-outlined {
+  background: transparent;
+  color: white;
+  padding: 1.2rem 3rem;
+  margin: 1.2rem 0;
+  border: white 2px solid;
+  border-radius: 50px;
+  font-size: 1.0rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

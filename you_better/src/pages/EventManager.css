@@ -1,0 +1,34 @@
+/* Blur effect for the background */
+.modal-open {
+  filter: blur(5px); /* Apply blur effect */
+  pointer-events: none; /* Prevent interaction with background elements */
+}
+
+/* Center the create event button below the table or other content */
+.create-event-button {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-top: 40px; /* Add space above the button */
+  margin-bottom: 40px;
+}
+
+.create-event-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+}
+
+.create-event-button button:hover {
+  background-color: #0056b3;
+}
+
+.event-table-box {
+  background-color: white; /* White background for the box */
+  border-radius: 8px; /* Slightly rounded edges */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Add padding inside the box */
+}

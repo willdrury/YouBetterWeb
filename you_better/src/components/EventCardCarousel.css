@@ -1,0 +1,58 @@
+/* Carousel Container */
+.card-carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  /* Carousel Track */
+  .card-carousel-track {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+  }
+
+  .card-carousel-track > .event-card {
+    flex: 0 0 300px; /* Fixed width for each card */
+    max-width: 300px; /* Prevent cards from growing */
+  }
+  
+  /* Hide scrollbar */
+  .card-carousel-track::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Carousel Arrows */
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  .carousel-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }

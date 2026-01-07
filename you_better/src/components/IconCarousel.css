@@ -1,0 +1,30 @@
+.carousel-container {
+    overflow: hidden; /* Hide overflowing content */
+    width: 100%; /* Full width */
+    background-color: pink;
+}
+  
+.carousel-track {
+    display: flex;
+    animation: scroll 100s linear infinite; /* Smooth scrolling animation */
+}
+  
+.carousel-item {
+    flex: 0 0 auto; /* Prevent items from shrinking */
+    width: var(--icon-width); /* Fixed width for each icon */
+    height: var(--icon-width); /* Fixed height for each icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px; /* Icon size */
+    color: white; /* Icon color */
+}
+  
+@keyframes scroll {
+    from {
+        transform: translateX(0); /* Start position */
+    }
+    to {
+        transform: translateX(calc(-1 * var(--track-width))); /* End position based on track width */
+    }
+}

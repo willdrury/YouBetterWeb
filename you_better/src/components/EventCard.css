@@ -1,0 +1,41 @@
+.event-card {
+    width: 300px; 
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+
+  }
+
+  .event-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .event-card-image {
+    height: 200px; /* Height of the image section */
+    background-size: cover; /* Ensure the image covers the area */
+    background-position: center; /* Center the image */
+  }
+  
+  .event-card-details {
+    padding: 15px; /* Padding for the details section */
+    background-color: white; /* White background for the details */
+    text-align: left;
+  }
+  
+  .event-card-details h3 {
+    margin: 0 0 10px; /* Add spacing below the title */
+    font-size: 18px;
+    color: #333; /* Dark text color */
+  }
+  
+  .event-card-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666; /* Subtle text color */
+  }

@@ -1,0 +1,19 @@
+main {
+    flex: 1; /* Pushes the footer to the bottom */
+    height: 100vh;
+    padding: 0px 20px;
+}
+
+.page-header {
+    text-align: left; 
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.centered-header {
+    text-align: center; 
+}
